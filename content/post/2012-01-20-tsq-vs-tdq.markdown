@@ -1,0 +1,19 @@
+---
+categories:
+- Mainframe
+- CICS
+date: 2012-01-20T10:19:00Z
+date_gmt: 2012-01-20 10:19:00 +0530
+published: true
+status: publish
+title: TSQ Vs. TDQ
+url: /2012/01/20/tsq-vs-tdq/
+---
+
+- In Temporary Storage Queues Data is read randomly, while in Transient Data Queues data must be read sequentially.
+- In a TSQ data can be read any number of times as it remains in the queue until the entire Queue is deleted. In TDQ data item can be read once only. To reuse the TDQ it must be closed and reopened. 
+- Data can be changed in TSQ, but not in TDQ. 
+- Auxiliary or Main Storage, while TDQ is written to Disk. Temporary storage is a holding place, while Transient data is always associated with destination. 
+- TSQ name is defined dynamically, while a TDQ name need to be defined in the DCT.
+
+**Note**: An application uses TSQ 's to pass info' from task to task, while a TDQ to accumulate records before processing or send data for external use, such as a print operation or other.

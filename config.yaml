@@ -1,0 +1,10 @@
+baseURL: ""
+disablePathToLower: true
+languageCode: en-us
+title: Purusothaman Ramanujam
+
+params:
+  Subtitle: "My Personal Flavour"
+  AuthorName: "Purusothaman Ramanujam"
+  GitHubUser: "Purus"
+  SidebarRecentLimit: 5

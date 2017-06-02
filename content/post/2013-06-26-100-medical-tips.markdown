@@ -1,0 +1,26 @@
+---
+author:
+  display_name: Purus
+  email: purus@purusothaman.me
+  login: Purus
+  url: http://www.purusothaman.me
+author_email: purus@purusothaman.me
+author_login: Purus
+author_url: http://www.purusothaman.me
+categories:
+- தமிழ் (Tamil)
+comments: []
+date: 2013-06-26T01:18:19Z
+date_gmt: 2013-06-25 19:48:19 +0530
+published: true
+status: publish
+tags:
+- tamil
+- health
+title: 100 மருத்துவக் குறிப்புகள்
+url: /2013/06/26/100-medical-tips/
+wordpress_id: 242
+wordpress_url: http://purusothaman.me/?p=242
+---
+
+<a href="{{site.baseurl}}/uploads/100-Medical-Health-Tips.pdf">100 மருத்துவக் குறிப்புகள்</a>
