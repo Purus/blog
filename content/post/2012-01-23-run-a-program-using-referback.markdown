@@ -7,9 +7,7 @@ date: 2012-01-23T06:02:00Z
 date_gmt: 2012-01-23 06:02:00 +0530
 published: true
 status: publish
-tags: []
 title: Run a Program using Referback
-url: /2012/01/23/run-a-program-using-referback/
 ---
 
 It is possible to execute a program from any library using the referback feature.

@@ -7,7 +7,6 @@ date_gmt: 2012-01-20 10:40:00 +0530
 published: true
 status: publish
 title: Isolation level in DB2
-url: /2012/01/20/isolation-level-in-db2/
 ---
 
 The list of isoloation leves are listed below.

@@ -5,15 +5,7 @@ date: 2013-10-25T22:42:36Z
 date_gmt: 2013-10-25 17:12:36 +0530
 published: true
 status: publish
-tags:
-- usb
-- computer
-- disk drive
-- error
-- ntfs
-- fat32
 title: Solution for Disk Drive Full error with USB Pen Drives
-url: /2013/10/25/disk-drive-full-error-with-usb-pen-drives/
 ---
 
 When you copy large files (greater than 3 GB) to your USB pen drive, it's almost sure that you will get an error alerting that "Disk drive is full". I am sure you will be surprised on seeing this error as your USB pen drive will have more than 10 GB available. I swear, I did got surprised. I confirmed that my USB drive has enough space.
@@ -35,11 +27,11 @@ Ok.. here is the solution.
 
 After these step, you can format your USB drive to NTFS file system. All the above steps are shown with actual images.
 
-<a href="{{site.baseurl}}/uploads/1.png"><img src="{{site.baseurl}}/uploads/1.png"></a>
+<a href="/uploads/1.png"><img src="/uploads/1.png"></a>
 
-<a href="{{site.baseurl}}/uploads/2.png"><img src="{{site.baseurl}}/uploads/2.png"></a>
+<a href="/uploads/2.png"><img src="/uploads/2.png"></a>
 
-<a href="{{site.baseurl}}/uploads/3.png"><img src="{{site.baseurl}}/uploads/3.png"></a>
+<a href="/uploads/3.png"><img src="/uploads/3.png"></a>
 
-<a href="{{site.baseurl}}/uploads/4.png"><img src="{{site.baseurl}}/uploads/4.png"></a>
+<a href="/uploads/4.png"><img src="/uploads/4.png"></a>
 

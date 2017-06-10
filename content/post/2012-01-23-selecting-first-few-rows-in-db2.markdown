@@ -7,7 +7,6 @@ date_gmt: 2012-01-23 11:58:00 +0530
 published: true
 status: publish
 title: Selecting first few rows in DB2
-url: /2012/01/23/selecting-first-few-rows-in-db2/
 ---
 
 DB2's method of performing a Top-N query is the FETCH FIRST clause. You can append these variations to a regular SELECT query:

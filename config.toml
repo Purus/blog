@@ -1,9 +1,15 @@
-baseURL = "http://example.org/"
+baseURL = "http://purusothaman.me/"
 languageCode = "en-us"
 relativeURLs = false
 title = "Purusothaman Ramanujam"
 disqusShortname = "purusothaman-ramanujam"
 paginate = 5
+theme = "hugo-geo"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+   series = "series"
 
 [params]
 	# Render the rotating globe in the sidebar
@@ -12,6 +18,9 @@ paginate = 5
 	# Include favicon
 	favicon = "favicon.ico"
 
+	# Google Analytics
+	analytics = "UA-42031335-1"
+	
 	# Email (optional)
 	email = "purushoth.r@gmail.com"
 	
@@ -30,7 +39,6 @@ paginate = 5
 	[[params.socialbuttons]]
 	faicon = "github"
 	url = "https://github.com/purus"
-	[[params.socialbuttons]]
-	faicon = "twitter"
-	url = "https://twitter.com/purusr"
-	[[params.socialbuttons]]
+
+[permalinks]
+    post = "/:title/"	

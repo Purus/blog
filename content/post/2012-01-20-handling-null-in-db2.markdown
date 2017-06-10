@@ -7,7 +7,6 @@ date_gmt: 2012-01-20 10:43:00 +0530
 published: true
 status: publish
 title: Handling NULL in DB2
-url: /2012/01/20/handling-null-in-db2/
 ---
 
 The value of an indicator variable tells the status of a row after a query.

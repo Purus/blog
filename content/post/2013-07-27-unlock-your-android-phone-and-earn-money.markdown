@@ -5,12 +5,8 @@ date: 2013-07-27T16:49:34Z
 date_gmt: 2013-07-27 11:19:34 +0530
 published: true
 status: publish
-tags:
-- mobile
-- android
-- app
 title: Unlock Your Android Phone and Earn Money
-url: /2013/07/27/unlock-your-android-phone-and-earn-money/
+
 ---
 
 Are you an smart phone user? How many times in a given day, you unlock your phone screen to work on it? Read the title of this article. Yes. You heard it right. You can earn some fortune when you unlocking your smart phone every time.
@@ -23,7 +19,7 @@ The home screen( lock screen) of your phone is a large canvas which is never use
 
 [Get Locket](http://www.getlocket.com)
 
-<a href="{{site.baseurl}}/uploads/locket1.png"><img src="{{site.baseurl}}/uploads/locket1.png"></a>
+<a href="/uploads/locket1.png"><img src="/uploads/locket1.png"></a>
 
 The Locket App is now in Beta testing phase(at the time of writing this blog) and available for download from the Google Play store. They also give you $1 when your friend sign-up with Locket. Remember that they have to sign-up from the referral link specific to you. More referrals, More money. Moreover, they give bonus to random users.
 

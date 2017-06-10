@@ -1,12 +1,4 @@
 ---
-author:
-  display_name: Purus
-  email: purus@purusothaman.me
-  login: Purus
-  url: http://www.purusothaman.me
-author_email: purus@purusothaman.me
-author_login: Purus
-author_url: http://www.purusothaman.me
 categories:
 - File-Aid
 comments: []
@@ -16,9 +8,6 @@ published: true
 status: publish
 tags: []
 title: Copy a Dataset using File-Aid
-url: /2012/01/18/copy-a-dataset-using-file-aid/
-wordpress_id: 37
-wordpress_url: http://purusothaman.me/?p=37
 ---
 
 <p>The steps to copy a file using File-Aid are :<br>

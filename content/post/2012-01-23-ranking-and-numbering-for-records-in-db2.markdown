@@ -7,7 +7,6 @@ date_gmt: 2012-01-23 12:01:00 +0530
 published: true
 status: publish
 title: Ranking and Numbering for Records in DB2
-url: /2012/01/23/ranking-and-numbering-for-records-in-db2/
 ---
 
 DB2 supports ranking and numbering in much the same way that Oracle does.

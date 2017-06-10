@@ -5,20 +5,16 @@ date: 2016-10-10T16:49:34Z
 date_gmt: 2016-10-10 11:19:34 +0530
 published: true
 status: publish
-tags:
-- java
-- jira
 title: Getting all JIRA Issue Details using Java
-url: /2016/10/10/get-jira-details-in-java/
 ---
 
 Let's see how to fetch all details of a given JIRA issue in JAVA using the REST API library provided by Atlassian.
 
-> To know about the required Maven dependencies and how to generate the trust store file used in the code below, you can refer to [How to work with Atlassian JIRA API using Java]({{site.baseurl}}/programming/2016/09/18/how-to-use-JIRA-API-in-Java.html).
+> To know about the required Maven dependencies and how to generate the trust store file used in the code below, you can refer to [How to work with Atlassian JIRA API using Java](/programming/2016/09/18/how-to-use-JIRA-API-in-Java.html).
 
 The full code is provided below to get few basic details of an example issue called PROJECT-359.
 
-{{< highlight java >}}
+```java
 import com.atlassian.jira.rest.client.api.IssueRestClient;
 import com.atlassian.jira.rest.client.api.JiraRestClient;
 import com.atlassian.jira.rest.client.api.domain.*;
@@ -87,4 +83,4 @@ public class Tutorial01 {
 
     }
 }
-{{< / highlight >}}
+```

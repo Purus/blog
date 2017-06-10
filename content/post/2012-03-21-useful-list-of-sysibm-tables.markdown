@@ -1,14 +1,13 @@
 ---
 categories:
+- Mainframe
 - DB2
 comments: []
 date: 2012-03-21T06:35:00Z
 date_gmt: 2012-03-21 06:35:00 +0530
 published: true
 status: publish
-tags: []
 title: Useful List of SYSIBM tables
-url: /2012/03/21/useful-list-of-sysibm-tables/
 ---
 
 SYSCHECKDEP 

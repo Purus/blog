@@ -6,9 +6,7 @@ date: 2012-01-23T10:38:00Z
 date_gmt: 2012-01-23 10:38:00 +0530
 published: true
 status: publish
-tags: []
-title: COBOL Numeric Data Types - COMP
-url: /2012/01/23/cobol-numeric-data-types-comp/
+title: COBOL Numeric Data Types-COMP
 ---
 
 The following common COBOL data types are discussed below:

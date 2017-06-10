@@ -1,13 +1,12 @@
 ---
 categories:
-- DB2
 - Mainframe
+- DB2
 date: 2013-07-08T08:09:57Z
 date_gmt: 2013-07-08 02:39:57 +0530
 published: true
 status: publish
 title: DB2 9 Family Fundamentals(000-730) - Q & A
-url: /2013/07/08/db2-certification-question-answers/
 ---
 
 Read and Download several question and answers for the IBM DB2 9 certification exam.
@@ -62,6 +61,6 @@ Read and Download several question and answers for the IBM DB2 9 certification e
 3.  Knowledge to identify characteristics of DB2 locks
 4.  Given a situation, knowledge to identify the isolation levels that should be used
 
-<a href="{{site.baseurl}}/uploads/000-730_303_QA_Sep2010.pdf">Download Sep 2010 Questions</a> 
+<a href="/uploads/000-730_303_QA_Sep2010.pdf">Download Sep 2010 Questions</a> 
 
-<a href="{{site.baseurl}}/uploads/000-730_126_QA_Mar2010.pdf">Download Mar 2010 Questions</a>
+<a href="/uploads/000-730_126_QA_Mar2010.pdf">Download Mar 2010 Questions</a>

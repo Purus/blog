@@ -5,12 +5,7 @@ date: 2013-09-04T18:38:03Z
 date_gmt: 2013-09-04 13:08:03 +0530
 published: true
 status: publish
-tags:
-- ftp
-- server
-- filezilla
 title: Monsta FTP - FileZilla like FTP software for browsers
-url: /2013/09/04/monsta-ftp-web-based-version-of-filezilla/
 ---
 
 You would have came across a FTP application like FileZilla or WinSCP which you have used to access a FTP server. These are Windows based and you need to install them on your desktop if you want to use them.
@@ -25,7 +20,7 @@ Some words from the MonstaFTP website:
 
 The MonstaFTP script is 100% open source, has a compact installation, and shows what a HTML5 web application can offer with an easy installation process.
 
-<a href="{{site.baseurl}}/uploads/monsta.jpg"><img src="{{site.baseurl}}/uploads/monsta.jpg"></a>
+<a href="/uploads/monsta.jpg"><img src="/uploads/monsta.jpg"></a>
  
 Some of the features of MonstaFTP script:
 - Open source GNU General Public License

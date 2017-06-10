@@ -7,7 +7,6 @@ date_gmt: 2012-01-18 18:10:00 +0530
 published: true
 status: publish
 title: Verification of DB2 Consistency token
-url: /2012/01/18/verification-of-db2-consistency-token/
 ---
 
 When a Job abends at a program due to bind error with SQL code of -805 or -818 then generally there is issue with consistency token (often referred as CONTOKEN). These kind of abends can be easily fixed if we can find where the CONTOKEN mismatch occurs.
@@ -42,7 +41,7 @@ The "PDSNAME" field above will indicate the DBRMLIB used for binding the module.
 
 > F X'18DAE1691F0420A5'
 
-<img alt="CONTOKEN IN DBRM IN DBRMLIB" src="{{site.baseurl}}/uploads/contoken2.JPG">
+<img alt="CONTOKEN IN DBRM IN DBRMLIB" src="/uploads/contoken2.JPG">
 
 (The CONTOKEN in the DBRM is generally at the 25th position as shown in the figure above)
 
@@ -71,7 +70,7 @@ Swapping positions and joining them back will result in the CONTOKEN
 
 >F X'1F0420A518DAE169'
 
-<img alt="CONTOKEN in load object in LOADLIB" src="{{site.baseurl}}/uploads/contoken3.jpg"
+<img alt="CONTOKEN in load object in LOADLIB" src="/uploads/contoken3.jpg"
 
 Note:- If the CONTOKEN is found then its fine and if not then you will need to recompile and also relink(if composite load also doesnt has this) to fix the issue.
 

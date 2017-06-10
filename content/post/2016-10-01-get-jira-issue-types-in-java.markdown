@@ -5,20 +5,16 @@ date: 2016-10-01T16:49:34Z
 date_gmt: 2016-10-01 11:19:34 +0530
 published: true
 status: publish
-tags:
-- java
-- jira
 title: Getting all JIRA Issue Types using Java
-url: /2016/10/01/get-jira-issue-types-in-java/
 ---
 
 Let's see how to fetch all available issues from JIRA in JAVA using the REST API library provided by Atlassian.
 
-> To know about the required Maven dependencies and how to generate the trust store file used in the code below, you can refer to [How to work with Atlassian JIRA API using Java]({{site.baseurl}}/programming/2016/09/18/how-to-use-JIRA-API-in-Java.html).
+> To know about the required Maven dependencies and how to generate the trust store file used in the code below, you can refer to [How to work with Atlassian JIRA API using Java](/programming/2016/09/18/how-to-use-JIRA-API-in-Java.html).
 
 The full code is provided below to get Name and Id of all available issue types.
 
-{{< highlight java >}}
+```java
 import com.atlassian.jira.rest.client.api.JiraRestClient;
 import com.atlassian.jira.rest.client.api.domain.IssueType;
 import com.atlassian.jira.rest.client.auth.BasicHttpAuthenticationHandler;
@@ -56,13 +52,12 @@ public class Tutorial01 {
     }
 
 }
-
-{{< / highlight >}}
+```
 
 
 For the provided code you will get all the issue names and it's internal ID in the console output. Some sample is provided below for your understanding.
 
-{{< highlight java >}}
+```
 Issue Name : Task , Issue ID : 3
 Issue Name : Sub-task , Issue ID : 5
 Issue Name : Defect , Issue ID : 78
@@ -71,5 +66,4 @@ Issue Name : Epic , Issue ID : 11
 Issue Name : Story , Issue ID : 12
 Issue Name : Idea , Issue ID : 1008
 Issue Name : Todo , Issue ID : 1106
-
-{{< / highlight >}}
+```

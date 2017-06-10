@@ -7,7 +7,6 @@ date_gmt: 2012-01-23 06:16:00 +0530
 published: true
 status: publish
 title: TIME=NOLIMIT and TIME=MAXIMUM
-url: /2012/01/23/timenolimit-and-timemaximum/
 ---
 
 We can specify the max limit of TIME parameter as

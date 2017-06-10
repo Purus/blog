@@ -7,7 +7,6 @@ date_gmt: 2012-01-20 10:14:00 +0530
 published: true
 status: publish
 title: Find bad data using File-Aid
-url: /2012/01/20/find-bad-data-using-file-aid/
 ---
 
 The Easiest and Coolest way to locate bad data is thru File-Aid's FIND command.

@@ -7,7 +7,6 @@ date_gmt: 2012-03-21 08:59:00 +0530
 published: true
 status: publish
 title: Recovering Deleted Flat Files in Mainframe
-url: /2012/03/21/recovering-deleted-flat-files/
 ---
 
 Flat files can be recovered by following the below mentioned steps.

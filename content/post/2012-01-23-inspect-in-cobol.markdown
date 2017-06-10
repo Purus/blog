@@ -7,7 +7,6 @@ date_gmt: 2012-01-23 10:40:00 +0530
 published: true
 status: publish
 title: INSPECT in COBOL
-url: /2012/01/23/inspect-in-cobol/
 ---
 
 The INSPECT verb has two options, TALLYING and REPLACING. You can do  one or the other or both. If both are done, the TALLYING IS DONE BEFORE  THE replacing. Some versions of the INSPECT require that all the  literals be in quotes. This may call for a redefination if the field is  numeric.

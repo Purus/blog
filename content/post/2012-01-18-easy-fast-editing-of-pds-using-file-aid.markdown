@@ -7,7 +7,6 @@ date_gmt: 2012-01-18 14:37:00 +0530
 published: true
 status: publish
 title: Easy & Fast Editing of PDS using File-Aid
-url: /2012/01/18/easy-fast-editing-of-pds-using-file-aid/
 ---
 
 Projects do testing of their code multiple times before they move their code to production. Once the test JCLs are created. From the second run, we need to just change few qualifiers of the DSN and dates in all the JCLs.

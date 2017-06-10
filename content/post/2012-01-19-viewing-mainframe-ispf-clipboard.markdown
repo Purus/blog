@@ -7,7 +7,6 @@ date_gmt: 2012-01-19 20:57:00 +0530
 published: true
 status: publish
 title: Viewing Mainframe ISPF Clipboard
-url: /2012/01/19/viewing-mainframe-ispf-clipboard/
 ---
 
 When I issue CUT , I know that the CUT content are placed in a clipboard. And when I issue PASTE, the clipboard content are pasted.<br>

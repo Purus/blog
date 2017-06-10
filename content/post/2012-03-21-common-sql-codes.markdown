@@ -6,7 +6,6 @@ date_gmt: 2012-03-21 06:51:00 +0530
 published: true
 status: publish
 title: Common DB2 SQL Codes
-url: /2012/03/21/common-sql-codes/
 ---
 
 <table>

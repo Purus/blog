@@ -7,7 +7,6 @@ date_gmt: 2012-01-20 10:28:00 +0530
 published: true
 status: publish
 title: Dummy VSM Dataset in JCL
-url: /2012/01/20/dummy-vsm-dataset-in-jcl/
 ---
 
 In general we use DUMMY datasets in JCL instead of a actual file for some requirements.

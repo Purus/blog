@@ -1,19 +1,11 @@
 ---
 categories:
 - French
-comments: []
 date: 2013-09-06T08:57:15Z
 date_gmt: 2013-09-06 03:27:15 +0530
 published: true
 status: publish
-tags:
-- french
-- francais
-- letters
-- CV
-- letttres
 title: French letters - modeles de lettres
-url: /2013/09/06/french-letters/
 ---
 
 Je voudrais partager quelques sites sur le sujet de "lettre". OK, now in English. I would like to share some good website resources for writing all kinds of letters in French.

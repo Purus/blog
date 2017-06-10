@@ -7,7 +7,6 @@ date_gmt: 2012-03-21 06:58:00 +0530
 published: true
 status: publish
 title: Options on DECLARE CURSOR
-url: /2012/03/21/options-on-declare-cursor/
 ---
 
 - Use FOR READ/FETCH ONLY or WITH UR for retrieval only cursors.

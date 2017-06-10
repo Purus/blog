@@ -7,7 +7,6 @@ date_gmt: 2012-03-21 09:02:00 +0530
 published: true
 status: publish
 title: Converting a file from VB to FB.
-url: /2012/03/21/converting-a-file-from-vb-to-fb/
 ---
 
 DFSORT can be used to do VB to FB conversion, when sorting, copying or  merging. The VTOF or CONVERT and OUTREC operands of OUTFIL can be used  to change variable-length (e.g. VB) input records to fixed-length (e.g.  FB) output records. VTOF or CONVERT indicates that conversion is to be  performed and OUTREC defines the reformatted records. All output data  sets for which VTOF or CONVERT is used must have or will be given  fixed-length record formats.

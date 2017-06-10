@@ -7,7 +7,6 @@ date_gmt: 2013-06-26 10:00:00 +0530
 published: true
 status: publish
 title: Replacing low values to spaces in Mainframe Sort
-url: /2013/06/26/replacing-low-values-to-spaces-in-mainframe-sort/
 ---
 
 In Mainframe, using Sort, how can I replace all the low-values in a file to spaces?

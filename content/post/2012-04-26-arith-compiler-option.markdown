@@ -7,7 +7,6 @@ date_gmt: 2012-04-26 03:38:00 +0530
 published: true
 status: publish
 title: ARITH Compiler Option in COBOL
-url: /2012/04/26/arith-compiler-option/
 ---
 
 ARITH affects the maximum number of digits that you can code for integers, and the number of digits used in fixed-point intermediate results. By specifying ARITH complier option we can control the maximum number of digits allowed for decimal numbers (packed decimal, zoned decimal and numeric-edited data items and numeric literals).

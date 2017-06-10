@@ -1,26 +1,20 @@
 ---
 categories:
 - Programming
-- Jira
 date: 2016-11-12T16:49:34Z
 date_gmt: 2016-11-12 11:19:34 +0530
 published: true
 status: publish
-tags:
-- java
-- jira
 title: Get JIRA Field ID using Java
-url: /2016/11/12/get-jira-field-id-in-java/
 ---
 
 Let's see how to fetch the field Id from JIRA in JAVA using the REST API library provided by Atlassian.
 
-> To know about the required Maven dependencies and how to generate the trust store file used in the code below, you can refer to [How to work with Atlassian JIRA API using Java]({{site.baseurl}}/programming/2016/09/18/how-to-use-JIRA-API-in-Java.html).
+> To know about the required Maven dependencies and how to generate the trust store file used in the code below, you can refer to [How to work with Atlassian JIRA API using Java](/programming/2016/09/18/how-to-use-JIRA-API-in-Java.html).
 
 The full code is provided below to get the ID value of a "Module Priority" field for the issue type "Defect" present in the project "PROJECT-KEY".
 
-{{< highlight java >}}
-
+```java
 import com.atlassian.jira.rest.client.api.AuthenticationHandler;
 import com.atlassian.jira.rest.client.api.GetCreateIssueMetadataOptions;
 import com.atlassian.jira.rest.client.api.GetCreateIssueMetadataOptionsBuilder;
@@ -102,8 +96,7 @@ public class Tutorial05 {
     }
 
 }
-
-{{< / highlight >}}
+```
 
 
 The output will be the ID value of the "Module Priority" field as shown below. You can use this ID for updates or while creating new issues. Refer to other blog posts for understanding in detail.

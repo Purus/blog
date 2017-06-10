@@ -7,7 +7,6 @@ date_gmt: 2012-01-18 18:28:00 +0530
 published: true
 status: publish
 title: Recently accessed Datasets in Mainframe
-url: /2012/01/18/recently-accessed-datasets-in-mainframe/
 ---
 
 <p>Here is the way to find the last 10 datasets that you have accessed.</p><br>

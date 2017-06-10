@@ -5,19 +5,13 @@ date: 2013-11-20T23:57:16Z
 date_gmt: 2013-11-20 18:27:16 +0530
 published: true
 status: publish
-tags:
-- windows
-- wamp
-- xampp
-- php
-- cron
 title: 'Running Cron in Windows '
-url: /2013/11/20/running-cron-in-windows/
 ---
 
 We all would have heard of Cron jobs, if you are involved in website management, development or working on Linux/Unix machines.
 
 **What's a cron?**
+
 > Cron is nothing but an demon job running in the background without any user intervention. It gets executed automatically based on the predefined time interval.
 
 Generally cron jobs are used to perform some maintenance activities in the server. For example, if you run a very popular blog, you can use the cron job to send out a weekly mail to all the users about the new blog posts. Or even removing any unwanted file uploads once a month. It's not very unusual to link cron to *nix machines.
@@ -30,7 +24,7 @@ Microsoft has included a tiny command line utility called "Task Scheduler" in it
 
 > In your Windows command prompt, type "schtasks" (without quotes) and press the Enter key. You can see the list of scheduled tasks in your machine.  
 
-<a href="{{site.baseurl}}/uploads/schtasks-status.png"><img src="{{site.baseurl}}/uploads/schtasks-status.png"></a>
+<a href="/uploads/schtasks-status.png"><img src="/uploads/schtasks-status.png"></a>
 
 **Adding a new scheduled task**
 
@@ -38,7 +32,7 @@ To add a new task, you can use "schtasks /create" command. For example the below
 
 > schtasks /create /sc minute /mo 1 /tn "My Cron" /tr "php -f C:\wamp\www\oxwall\ow_cron\run.php"
 
-<a href="{{site.baseurl}}/uploads/schtasks-add.png"><img src="{{site.baseurl}}/uploads/schtasks-add.png"></a>
+<a href="/uploads/schtasks-add.png"><img src="/uploads/schtasks-add.png"></a>
 
 > It might ask for your windows password if necessary.
 

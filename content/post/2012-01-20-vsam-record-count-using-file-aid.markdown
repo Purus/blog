@@ -7,7 +7,6 @@ date_gmt: 2012-01-20 10:36:00 +0530
 published: true
 status: publish
 title: VSAM record count using File-Aid
-url: /2012/01/20/vsam-record-count-using-file-aid/
 ---
 
 Whats the best way to count the number of records in a VSAM File? 

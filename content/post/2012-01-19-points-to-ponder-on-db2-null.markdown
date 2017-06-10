@@ -7,7 +7,6 @@ date_gmt: 2012-01-19 21:40:00 +0530
 published: true
 status: publish
 title: Points to Ponder on DB2 NULL
-url: /2012/01/19/points-to-ponder-on-db2-null/
 ---
 
 - NULLs can present problems because they are handled differently by different computers and the collating sequence is inconsistent with regard to NULLs.

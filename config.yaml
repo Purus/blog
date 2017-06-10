@@ -3,6 +3,9 @@ disablePathToLower: true
 languageCode: en-us
 title: Purusothaman Ramanujam
 
+permalinks:
+  post: /:title/
+  
 params:
   Subtitle: "My Personal Flavour"
   AuthorName: "Purusothaman Ramanujam"

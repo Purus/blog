@@ -6,9 +6,7 @@ date: 2012-01-18T17:49:00Z
 date_gmt: 2012-01-18 17:49:00 +0530
 published: true
 status: publish
-tags: []
 title: COBOL Calendar and Date Functions
-url: /2012/01/18/cobol-calendar-date-functions/
 ---
 
 You need to know what date is 150 days from today (and this kind of stuff happens more often than you'd think)? Convert today to an integer date, add 150 to it and convert it back. No more checking which months you're going through to see if it's a 30 day or 31 day month. No more leap year calculations.

@@ -6,7 +6,6 @@ date: 2013-02-10T00:00:00Z
 published: true
 status: publish
 title: Fumer Comme un Pompier
-url: /2013/02/10/fumer-comme-un-pompier/
 ---
 
 Avec cet expression vous pensez que les pompiers fument beacoup du tabac que les autres? Non.

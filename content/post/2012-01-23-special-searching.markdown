@@ -1,15 +1,12 @@
 ---
 categories:
+- Mainframe
 - ISPF
-- REXX
-comments: []
 date: 2012-01-23T06:30:00Z
 date_gmt: 2012-01-23 06:30:00 +0530
 published: true
 status: publish
-tags: []
-title: Special Searching
-url: /2012/01/23/special-searching/
+title: ISPF Special Searching
 ---
 
 A picture string in a FIND, CHANGE, or EXCLUDE command allows you to search for a particular kind of character without regard for the specific character involved.

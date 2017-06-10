@@ -7,7 +7,6 @@ date_gmt: 2012-01-20 10:38:00 +0530
 published: true
 status: publish
 title: Freezing columns in File-Aid
-url: /2012/01/20/freezing-columns-in-file-aid/
 ---
 
 While working in MS Excel we have the option of "Freeze Panes". By this options we can freeze some columns and have other columns scrolling. This feature is helpful in analysis when there are lots of columns(fields) in a file.

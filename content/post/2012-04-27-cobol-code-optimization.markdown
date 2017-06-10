@@ -7,7 +7,6 @@ date_gmt: 2012-04-27 04:38:00 +0530
 published: true
 status: publish
 title: COBOL Code Optimization
-url: /2012/04/27/cobol-code-optimization/
 ---
 
 To assist in the optimization of the code, you should use the OPTIMIZE compiler option. With the OPTIMIZE(STD) or OPTIMIZE(FULL) options in effect, you may receive optimizations that include:

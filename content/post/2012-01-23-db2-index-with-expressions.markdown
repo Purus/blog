@@ -7,7 +7,6 @@ date_gmt: 2012-01-23 06:09:00 +0530
 published: true
 status: publish
 title: DB2 Index with Expressions
-url: /2012/01/23/db2-index-with-expressions/
 ---
 
 Prior to DB2 9, the create index statement only allowed you to use the column name from the table the index is being built on. The same value for each column stored on the table was copied into the index and used to quickly identify the row when searching by that column name. Now with DB2 9, the create index statement supports a feature known as key expressions. Here’s why key expressions should interest you.

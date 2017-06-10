@@ -7,7 +7,6 @@ date_gmt: 2013-05-27 10:46:00 +0530
 published: true
 status: publish
 title: Ce n'est pas vos oignons
-url: /2013/05/27/ce-nest-pas-vos-oignons/
 ---
 
 Dans les expressions 

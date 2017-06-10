@@ -7,7 +7,6 @@ date_gmt: 2012-01-20 10:19:00 +0530
 published: true
 status: publish
 title: TSQ Vs. TDQ
-url: /2012/01/20/tsq-vs-tdq/
 ---
 
 - In Temporary Storage Queues Data is read randomly, while in Transient Data Queues data must be read sequentially.

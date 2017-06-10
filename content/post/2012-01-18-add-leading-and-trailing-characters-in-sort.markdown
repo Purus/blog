@@ -7,7 +7,6 @@ date_gmt: 2012-01-18 12:50:00 +0530
 published: true
 status: publish
 title: Add leading and trailing Characters in Sort
-url: /2012/01/18/add-leading-and-trailing-characters-in-sort/
 ---
 
 Lets assume that we have a sequential dataset with records as below:

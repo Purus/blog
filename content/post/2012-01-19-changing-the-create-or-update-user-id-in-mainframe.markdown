@@ -6,7 +6,6 @@ date_gmt: 2012-01-19 20:49:00 +0530
 published: true
 status: publish
 title: Changing the Create or Update User ID in Mainframe
-url: /2012/01/19/changing-the-create-or-update-user-id-in-mainframe/
 ---
 
 Usually the PDS or PS bears the ID of the creator or the ID of the person who modified it recently. It's possible to change these ID values without leaving trace of one's own ID.<br>

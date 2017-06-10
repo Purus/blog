@@ -7,7 +7,6 @@ date_gmt: 2012-03-21 08:49:00 +0530
 published: true
 status: publish
 title: AUTOTYPE Suggestion
-url: /2012/03/21/autotype-suggestion/
 ---
 
 How wonderful it feels when Internet explorer suggests names for URLs  when we start typing the first few letters!

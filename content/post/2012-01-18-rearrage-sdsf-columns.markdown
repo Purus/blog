@@ -7,7 +7,6 @@ date_gmt: 2012-01-18 15:22:00 +0530
 published: true
 status: publish
 title: Rearrage SDSF Columns
-url: /2012/01/18/rearrage-sdsf-columns/
 ---
 
 If you want to rearrange the columns in SDSF.

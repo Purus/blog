@@ -7,7 +7,6 @@ date_gmt: 2012-02-09 07:32:00 +0530
 published: true
 status: publish
 title: GDG - A Basic Introduction
-url: /2012/02/09/gdg-a-basic-introduction/
 ---
 
 **Introduction**

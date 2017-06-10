@@ -7,7 +7,6 @@ date_gmt: 2012-01-18 14:52:00 +0530
 published: true
 status: publish
 title: Change uppercase to lowercase or lowercase to uppercase in Sort
-url: /2012/01/18/change-uppercase-to-lowercase-or-lowercase-to-uppercase-in-sort/
 ---
 
 Translation features of INREC, OUTREC and OUTFIL make it easy to change the case of characters in your fields.

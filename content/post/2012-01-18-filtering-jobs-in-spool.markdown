@@ -7,7 +7,6 @@ date_gmt: 2012-01-18 15:25:00 +0530
 published: true
 status: publish
 title: Filtering Jobs in Spool
-url: /2012/01/18/filtering-jobs-in-spool/
 ---
 
 There is a possibility to list only the jobs which has ABENDED, leaving out all other jobs in the spool.

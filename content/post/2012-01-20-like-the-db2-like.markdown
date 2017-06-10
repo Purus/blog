@@ -7,7 +7,6 @@ date_gmt: 2012-01-20 10:46:00 +0530
 published: true
 status: publish
 title: Like the DB2 LIKE
-url: /2012/01/20/like-the-db2-like/
 ---
 
 The LIKE phrase defines a mask for comparing characters:

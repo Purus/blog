@@ -5,11 +5,7 @@ date: 2016-09-18T16:49:34Z
 date_gmt: 2016-09-18 16:49:34 +0530
 published: true
 status: publish
-tags:
-- java
-- jira
 title: How to work with Atlassian JIRA API using Java
-url: /2016/09/18/how-to-use-JIRA-API-in-Java/
 ---
 
 To work with JIRA REST API in Java, we need to import the required Java packages and we might also need to import the trust-store file.
@@ -18,7 +14,7 @@ Java Package Dependencies
 =========================
 If you are using Maven, you can easily add the below dependencies in your pom.xml file for working with Atlassian JIRA API.
 
-{{< highlight xml >}}
+```xml
     <dependency>
         <groupId>com.atlassian.jira</groupId>
         <artifactId>jira-rest-java-client-core</artifactId>
@@ -30,7 +26,7 @@ If you are using Maven, you can easily add the below dependencies in your pom.xm
         <artifactId>jira-rest-java-client-api</artifactId>
         <version>3.0.0</version>
     </dependency>
-{{< / highlight >}}
+```
 
 # Creating Trust Store File 
 Now, you will need to add your certificate to the trust store so that Java can connect to your API backend. 
@@ -40,15 +36,15 @@ If you have OpenSSL installed you can relax. :) You can use the below commands t
 
 The *s_client* command will get the certificate and provided it. An then we are saving the server certificate to a file called certfile.cer. Please note to replace *jira.website.com:8888* with your own JIRA server URL.
 
-{{< highlight shell >}}
+```shell
 echo "" | openssl s_client -connect jira.website.com:8888 -showcerts | openssl x509 -out certfile.cer
-{{< / highlight >}}
+```
 
 Next step is to import the generated cer file to the trust store.
 
-{{< highlight shell >}}
+```shell
 keytool -import -keystore myTrustStore -file certfile.cer
-{{< / highlight >}}
+```
 
 And now, you can use the myTrustStore file in your Java code to connect to JIRA API.
 

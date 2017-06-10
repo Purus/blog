@@ -7,7 +7,6 @@ date_gmt: 2012-01-23 06:12:00 +0530
 published: true
 status: publish
 title: Run a step only from a set of steps in a job
-url: /2012/01/23/run-a-step-only-from-a-set-of-steps-in-a-job/
 ---
 
 I have a JCL with 20 steps. Due to some reasons I want to execute the step 15 only.

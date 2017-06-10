@@ -7,7 +7,6 @@ date_gmt: 2012-01-19 21:02:00 +0530
 published: true
 status: publish
 title: Appending to ISPF Clipboard
-url: /2012/01/19/appending-to-ispf-clipboard/
 ---
 
 Scenario:

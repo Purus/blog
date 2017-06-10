@@ -1,12 +1,10 @@
 ---
-categories:
-- Machine-Learning
+categories: Machine-Learning
 date: 2017-05-20T23:29:33Z
 date_gmt: 2017-05-20 17:59:33 +0530
 published: true
-status: draft
+status: publish
 title: Linear Regression for Machine Learning
-url: /2017/05/20/linear-regression-for-machine-learning/
 ---
 
 Introduction
@@ -17,13 +15,12 @@ Linear regression is a simple statistics technique that predicts the value of an
 
 For example let us consider a simple example. The below table gives you the distance you travel at the end of each hour in your car. At the end of first hour you would have gone 60 miles away and 120 miles at the end of second hour. 
 
-Hour     | Distance(Miles)
--------- | ---------------
-0        | 0
-1        | 60
-2        | 120
-3        | 180
-
+| Hour | Distance(Miles) |
+|------|--------|
+| 0	|0|
+| 1	|60|
+| 2	|120|
+| 3	|180|
 
 In the above example, "Hours" in the input variable and "Distance" is the output variable. The output variable is dependent on the input variable as the output value changes based on the input value. Can you predict how much distance your car could have gone at the end of 4th hour? Easy to predict the output as 240 miles, isn't?
 
@@ -68,19 +65,27 @@ As alcohol consumption increases, we expect blood alcohol content to increase in
 
 To understand better, let us see some data for the problem of Height Vs. Weight.
 
-|Height| Weight |
+| Height | Weight |
 |------|--------|
-|63	|127|
-|64	|121|
-|66	|142|
-|69	|157|
-|69	|162|
-|71	|156|
-|71	|169|
-|72	|165|
-|73	|181|
-|75	|208|
+| 63	|127|
+| 64	|121|
+| 66	|142|
+| 69	|157|
+| 69	|162|
+| 71	|156|
+| 71	|169|
+| 72	|165|
+| 73	|181|
+| 75	|208|
 
 On plotting the above data, we get the below chart. Unlike our previous chart, you can see that the values are scattered and it's not possible have a line pass through all the points.
 
-For this given problem, how do you predict weight of your friend who height is not in the list? This is where the prediction using linear regression comes to our help.
+![Linear Regression Data Plot](/uploads/Regression_Line_Data.jpg "Linear Regression Data Plot")
+
+For this given problem, how do you predict weight of your friend who height is not in the list? This is where the prediction using linear regression comes to our help. We can plot a line across the points so that we can predict the value. But wait. There are several possibilities to draw a line for the given data points. Some of the possible ways are shown below.
+
+![Types of Plotting](/uploads/Regression_Line_Types.jpg "Types of Plotting")
+
+Predicting the value depends on this line. But from the several ways of plotting a line, I would say the below is the best fit line.
+
+![Linear Regression Best Fit](/uploads/Regression_Line_Best.JPG "Linear Regression Best Fit")
