@@ -88,4 +88,6 @@ For this given problem, how do you predict weight of your friend who height is n
 
 Predicting the value depends on this line. But from the several ways of plotting a line, I would say the below is the best fit line.
 
-![Linear Regression Best Fit](/uploads/Regression_Line_Best.JPG "Linear Regression Best Fit")
+![Linear Regression Best Fit](/uploads/Regression_Line_Best.jpg "Linear Regression Best Fit")
+
+How can one say this is the best fit for the given scattered data? T
